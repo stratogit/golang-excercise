@@ -62,15 +62,12 @@ func App3(path string, ch chan string) error {
 		return err
 	}
 
-	// fmt.Printf("users %v \n", &users)
-
 	client := redis.NewClient(&redis.Options{
 		Addr:     "localhost:6379",
 		Password: "",
 		DB:       0,
 	})
 
-	// testing connectivity
 	_, err = client.Ping().Result()
 	if err != nil {
 		fmt.Printf("fail to ping redis %v", err)
@@ -80,12 +77,15 @@ func App3(path string, ch chan string) error {
 	disStr, err := client.Get("exercise").Result()
 	if err != nil {
 		fmt.Printf("fail to obtain data from redis %v", err)
+		return err
 	}
 	fmt.Printf("Successfully get values\n")
+
 	var disVal []UserData
 	err = json.Unmarshal([]byte(disStr), &disVal)
 	if err != nil {
 		fmt.Printf("fail to unmarshal %v", err)
+		return err
 	}
 
 	if !reflect.DeepEqual(fileVal, disVal) {
