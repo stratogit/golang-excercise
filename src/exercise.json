@@ -1,0 +1,222 @@
+[
+    {
+        "imsi": 1234567890,
+        "erab": 1,
+        "imei": 98765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 567,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 1234567891,
+        "erab": 1,
+        "imei": 91765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 568,
+        "ulDataKB": 789,
+        "dlDataKB": 8900
+    },
+    {
+        "imsi": 1234567892,
+        "erab": 1,
+        "imei": 92765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 569,
+        "ulDataKB": 5678934,
+        "dlDataKB": 5670
+    },
+    {
+        "imsi": 1234567893,
+        "erab": 1,
+        "imei": 93765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 570,
+        "ulDataKB": 9089,
+        "dlDataKB": 56900
+    },
+    {
+        "imsi": 1234567894,
+        "erab": 1,
+        "imei": 94765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 571,
+        "ulDataKB": 56789454,
+        "dlDataKB": 567890234320
+    },
+    {
+        "imsi": 1234567895,
+        "erab": 1,
+        "imei": 95765432,
+        "apn": "non-ip",
+        "pdn_type": "non_ip",
+        "state": "de-attached",
+        "msgId": 572,
+        "ulDataKB": 5,
+        "dlDataKB": 56
+    },
+    {
+        "imsi": 1234567896,
+        "erab": 1,
+        "imei": 96765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 573,
+        "ulDataKB": 569,
+        "dlDataKB": 5900
+    },
+    {
+        "imsi": 1234567897,
+        "erab": 5,
+        "imei": 97765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 567,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 1234567898,
+        "erab": 1,
+        "imei": 99765432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 576,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 1234567899,
+        "erab": 1,
+        "imei": 98725432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "de-attached",
+        "msgId": 575,
+        "ulDataKB": 9,
+        "dlDataKB": 0
+    },
+    {
+        "imsi": 2234567890,
+        "erab": 1,
+        "imei": 98735432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 545,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 3234567890,
+        "erab": 1,
+        "imei": 98745432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 512,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 4234567890,
+        "erab": 2,
+        "imei": 98755432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 566,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 5234567890,
+        "erab": 1,
+        "imei": 98765432,
+        "apn": "non-ip",
+        "pdn_type": "non_ip",
+        "state": "attached",
+        "msgId": 588,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 6234567890,
+        "erab": 1,
+        "imei": 98775432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 532,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 7234567890,
+        "erab": 1,
+        "imei": 98785432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 56,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 8234567890,
+        "erab": 1,
+        "imei": 98795432,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "unknown",
+        "msgId": 5,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 9234567890,
+        "erab": 1,
+        "imei": 98765232,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "de-attached",
+        "msgId": 7,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 1334567890,
+        "erab": 1,
+        "imei": 98765332,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "attached",
+        "msgId": 789,
+        "ulDataKB": 56789,
+        "dlDataKB": 5678900
+    },
+    {
+        "imsi": 1534567890,
+        "erab": 11,
+        "imei": 98765532,
+        "apn": "internet",
+        "pdn_type": "ipv4",
+        "state": "de-attached",
+        "msgId": 5670,
+        "ulDataKB": 56783459,
+        "dlDataKB": 34578900
+    }
+]
