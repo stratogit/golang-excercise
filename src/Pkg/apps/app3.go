@@ -33,12 +33,12 @@ func getBasicStatistic(disVal []UserData) {
 	avDlData := dlData / count
 	avDlDataMB := avDlData / 1000
 
-	fmt.Println("\n| Data      | Throughput KB | Thoughput MB |")
-	fmt.Println("|-----------|---------------|--------------|")
-	fmt.Printf("|Average ul | %v       | %v         |\n", avUlData, avUlDataMB)
-	fmt.Printf("|Highest ul | %v      | %v        |\n", hUl, hUl/1000)
-	fmt.Printf("|Average dl | %v   | %v     |\n", avDlData, avDlDataMB)
-	fmt.Printf("|Highest dl | %v  | %v    |\n", hDl, hDl/1000)
+	fmt.Println("\n| Data      | Data Consumption KB | Data Consumption MB |")
+	fmt.Println("|-----------|---------------------|---------------------|")
+	fmt.Printf("|Average ul | %v             | %v                |\n", avUlData, avUlDataMB)
+	fmt.Printf("|Highest ul | %v            | %v               |\n", hUl, hUl/1000)
+	fmt.Printf("|Average dl | %v         | %v            |\n", avDlData, avDlDataMB)
+	fmt.Printf("|Highest dl | %v        | %v           |\n", hDl, hDl/1000)
 }
 
 func App3(path string, ch chan string) error {
