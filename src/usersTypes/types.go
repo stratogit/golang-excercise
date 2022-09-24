@@ -1,4 +1,4 @@
-package apps
+package usersTypes
 
 type UserData struct {
 	Imsi       int    `json:"imsi"`
